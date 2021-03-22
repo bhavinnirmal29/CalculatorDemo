@@ -12,7 +12,6 @@ namespace CalculatorDemo
         {
             Console.Write("Hello From Bhavin Nirmal");
             DisplayName();
-            DisplayCompName();
             Console.Read();
 
         }
@@ -20,9 +19,19 @@ namespace CalculatorDemo
         {
             Console.WriteLine("Hello Disha here!");
         }
-        static void DisplayCompName()
+        static void even()
         {
-            Console.WriteLine("Hello LNT from Azim here!");
+            Console.WriteLine("enter number");
+            int n = int.Parse(Console.ReadLine());
+            if (n % 2 == 0)
+            {
+                Console.WriteLine("even number");
+            }
+            else
+            {
+                Console.WriteLine("odd number");
+            }
         }
+
     }
 }
