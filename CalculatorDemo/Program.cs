@@ -11,7 +11,14 @@ namespace CalculatorDemo
         static void Main(string[] args)
         {
             Console.Write("Hello From Bhavin Nirmal");
+            DisplayName();
             Console.Read();
+
         }
+        static void DisplayName()
+        {
+            Console.WriteLine("Hello Disha here!");
+        }
+
     }
 }
