@@ -19,6 +19,9 @@ namespace CalculatorDemo
         {
             Console.WriteLine("Hello Disha here!");
         }
-
+        static void DisplayCompName()
+        {
+            Console.WriteLine("Hello LNT from Azim here!");
+        }
     }
 }
