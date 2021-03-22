@@ -12,12 +12,18 @@ namespace CalculatorDemo
         {
             Console.Write("Hello From Bhavin Nirmal");
             DisplayName();
+            DisplayCompName();
             Console.Read();
 
         }
         static void DisplayName()
         {
             Console.WriteLine("Hello Disha here!");
+        }
+
+        static void DisplayCompName()
+        {
+            Console.WriteLine("Hello LNT from Azim !");
         }
         static void even()
         {
