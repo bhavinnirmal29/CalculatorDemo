@@ -39,4 +39,9 @@ namespace CalculatorDemo
 
 
         }
+        static void Merge()
+        {
+            Console.WriteLine("Test Merge");
+        }
     }
+}
