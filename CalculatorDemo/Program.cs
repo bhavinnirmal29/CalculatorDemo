@@ -45,6 +45,10 @@ namespace CalculatorDemo
         {
             Console.WriteLine("Bhavin NIRMAL");
         }
+        public void test2()
+        {
+            Console.WriteLine("Azim Shaikh Again");
+        }
 
     }
 }
