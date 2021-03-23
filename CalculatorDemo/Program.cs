@@ -19,9 +19,5 @@ namespace CalculatorDemo
         {
             Console.WriteLine("Hello Disha here!");
         }
-        static void DisplayMerge()
-        {
-            Console.WriteLine("Test Merge");
-        }
     }
 }
