@@ -20,5 +20,9 @@ namespace CalculatorDemo
         {
             Console.WriteLine("New Class From Bhavin Nirmal");
         }
+        public void name2()
+        {
+            Console.WriteLine("CHange for Bhargava");
+        }
     }
 }
