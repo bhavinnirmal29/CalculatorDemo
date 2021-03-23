@@ -49,6 +49,10 @@ namespace CalculatorDemo
         {
             Console.WriteLine("Azim Shaikh Again");
         }
+        public void test3()
+        {
+            Console.WriteLine("Azure Practice First Commit by Bhavin Nirmal");
+        }
 
     }
 }
