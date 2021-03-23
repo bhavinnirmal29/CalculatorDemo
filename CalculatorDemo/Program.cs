@@ -38,6 +38,10 @@ namespace CalculatorDemo
                 Console.WriteLine("odd number");
             }
         }
+        public void test1()
+        {
+            Console.WriteLine("Bhavin NIRMAL");
+        }
 
     }
 }
