@@ -20,7 +20,6 @@ namespace CalculatorDemo
         {
             Console.WriteLine("Hello Disha here!");
         }
-
         static void DisplayCompName()
         {
             Console.WriteLine("Hello LNT from Azim !");
@@ -37,6 +36,12 @@ namespace CalculatorDemo
             {
                 Console.WriteLine("odd number");
             }
+
+
+        }
+        static void Merge()
+        {
+            Console.WriteLine("Test Merge");
         }
         public void test1()
         {
