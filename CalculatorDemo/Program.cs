@@ -36,8 +36,6 @@ namespace CalculatorDemo
             {
                 Console.WriteLine("odd number");
             }
-
-
         }
         static void Merge()
         {
