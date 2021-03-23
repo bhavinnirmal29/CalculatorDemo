@@ -12,5 +12,9 @@ namespace CalculatorDemo
         {
             Console.WriteLine("Hello from new class Azim");
         }
+        public void Name1()
+        {
+            Console.WriteLine("Hello from new class bhargava");
+        }
     }
 }
