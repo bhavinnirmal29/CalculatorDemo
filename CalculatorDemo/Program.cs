@@ -25,6 +25,8 @@ namespace CalculatorDemo
             test3();
             //Commit 6
             add();
+            //Commit 7
+            mul();
             Console.Read();
 
         }
@@ -38,8 +40,7 @@ namespace CalculatorDemo
         }
         static void even()
         {
-            Console.WriteLine("enter number");
-            int n = int.Parse(Console.ReadLine());
+            int n = 10;
             if (n % 2 == 0)
             {
                 Console.WriteLine("even number");
@@ -70,6 +71,12 @@ namespace CalculatorDemo
             int a = 5;
             int b = 10;
             Console.WriteLine("A + B = {0}",(a+b));
+        }
+        public static void mul()
+        {
+            int a = 4;
+            int b = 20;
+            Console.WriteLine("A x B = {0}",(a*b));
         }
 
     }
