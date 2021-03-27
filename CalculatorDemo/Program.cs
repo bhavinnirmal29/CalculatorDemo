@@ -13,6 +13,7 @@ namespace CalculatorDemo
             Console.Write("Hello From Bhavin Nirmal");
             DisplayName();
             DisplayCompName();
+            even();
             Console.Read();
 
         }
