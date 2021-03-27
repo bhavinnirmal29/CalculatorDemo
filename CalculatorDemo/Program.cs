@@ -21,6 +21,10 @@ namespace CalculatorDemo
             test1();
             //Commit 4
             test2();
+            //Commit 5
+            test3();
+            //Commit 6
+            add();
             Console.Read();
 
         }
@@ -60,6 +64,12 @@ namespace CalculatorDemo
         public static void test3()
         {
             Console.WriteLine("Azure Practice First Commit by Bhavin Nirmal");
+        }
+        public static void add()
+        {
+            int a = 5;
+            int b = 10;
+            Console.WriteLine("A + B = {0}",(a+b));
         }
 
     }
