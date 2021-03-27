@@ -29,6 +29,8 @@ namespace CalculatorDemo
             mul();
             //Commit 8
             div();
+            //Commit 9
+            sub();
             Console.Read();
 
         }
@@ -86,6 +88,11 @@ namespace CalculatorDemo
             int b = 5;
             Console.WriteLine("A / B =  "+(a/b));
         }
-
+        public static void sub()
+        {
+            int a = 10;
+            int b = 1;
+            Console.WriteLine("A-B = "+(a-b));
+        }
     }
 }
