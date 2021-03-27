@@ -13,7 +13,11 @@ namespace CalculatorDemo
             Console.Write("Hello From Bhavin Nirmal");
             DisplayName();
             DisplayCompName();
+            //Commit 1
             even();
+            //Commit 2
+            Merge();
+            
             Console.Read();
 
         }
