@@ -17,6 +17,8 @@ namespace CalculatorDemo
             even();
             //Commit 2
             Merge();
+            //Commit 3
+            test1();
             
             Console.Read();
 
@@ -46,15 +48,15 @@ namespace CalculatorDemo
         {
             Console.WriteLine("Test Merge");
         }
-        public void test1()
+        public static void test1()
         {
             Console.WriteLine("Bhavin NIRMAL");
         }
-        public void test2()
+        public static void test2()
         {
             Console.WriteLine("Azim Shaikh Again");
         }
-        public void test3()
+        public static void test3()
         {
             Console.WriteLine("Azure Practice First Commit by Bhavin Nirmal");
         }
