@@ -27,6 +27,8 @@ namespace CalculatorDemo
             add();
             //Commit 7
             mul();
+            //Commit 8
+            div();
             Console.Read();
 
         }
@@ -77,6 +79,12 @@ namespace CalculatorDemo
             int a = 4;
             int b = 20;
             Console.WriteLine("A x B = {0}",(a*b));
+        }
+        public static void div()
+        {
+            int a = 10;
+            int b = 5;
+            Console.WriteLine("A / B =  "+(a/b));
         }
 
     }
