@@ -19,7 +19,8 @@ namespace CalculatorDemo
             Merge();
             //Commit 3
             test1();
-            
+            //Commit 4
+            test2();
             Console.Read();
 
         }
