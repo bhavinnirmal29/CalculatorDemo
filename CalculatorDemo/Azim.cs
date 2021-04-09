@@ -32,5 +32,9 @@ namespace CalculatorDemo
         {
             Console.WriteLine("CHange for Bhavin");
         }
+		public void name5()
+        {
+            Console.WriteLine("CHange for Bhavin Nirmal");
+        }
     }
 }
