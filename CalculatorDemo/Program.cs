@@ -31,6 +31,8 @@ namespace CalculatorDemo
             div();
             //Commit 9
             sub();
+            //Commit 10
+            mod();
             Console.Read();
 
         }
@@ -93,6 +95,12 @@ namespace CalculatorDemo
             int a = 10;
             int b = 1;
             Console.WriteLine("A-B = "+(a-b));
+        }
+        public static void mod()
+        {
+            int a = 400;
+            int b = 20;
+            Console.WriteLine("A % B = "+(a%b));
         }
     }
 }
