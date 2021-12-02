@@ -48,5 +48,9 @@ namespace CalculatorDemo
         {
             Console.WriteLine("Sonar Change from Bhavin");
         }
+        public void name9()
+        {
+            Console.WriteLine("New Sonar Change from Bhavin");
+        }
     }
 }
